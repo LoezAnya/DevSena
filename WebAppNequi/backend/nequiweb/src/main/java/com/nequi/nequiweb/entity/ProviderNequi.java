@@ -8,7 +8,7 @@ import lombok.Setter;
 @Setter
 @Entity
 @Table(name = "provider")
-public class Provider {
+public class ProviderNequi {
     @Id
     @Column(name = "provider_id", nullable = false, length = 20)
     private String provider_id;

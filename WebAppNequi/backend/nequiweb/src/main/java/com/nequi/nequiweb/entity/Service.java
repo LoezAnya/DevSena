@@ -17,7 +17,7 @@ public class Service {
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "provider_id", nullable = false)
-    private Provider provider;
+    private ProviderNequi provider;
 
     @Column(name = "description")
     private String description;
